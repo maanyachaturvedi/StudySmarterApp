@@ -1,0 +1,31 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+shelf/
+workspace.xml
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keystore (don’t share signing keys!)
+*.jks
+*.keystore
+
+# Generated files
+captures/
+.externalNativeBuild/
+
+# Profiling
+*.hprof
