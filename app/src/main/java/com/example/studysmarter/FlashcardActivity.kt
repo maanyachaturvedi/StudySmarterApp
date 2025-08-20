@@ -19,6 +19,7 @@ import androidx.compose.ui.unit.dp
 import com.example.studysmarter.api.*
 import com.example.studysmarter.ui.theme.StudySmarterTheme
 import kotlinx.coroutines.launch
+import com.example.studysmarter.BuildConfig
 
 data class Flashcard(
     val question: String,
@@ -42,7 +43,7 @@ fun FlashcardScreen() {
     val activity = (LocalContext.current as? ComponentActivity)
     val context = LocalContext.current
     val coroutineScope = rememberCoroutineScope()
-    val apiKey = "AIzaSyDZziNQ5iDlnef32Bm1wyVQNlg8Qs3PnEw"
+    val apiKey = BuildConfig.GEMINI_API_KEY
 
     var topic by remember { mutableStateOf("") }
     var count by remember { mutableStateOf("5") }
