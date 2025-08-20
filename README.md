@@ -1,29 +1,23 @@
-# 📚 StudySmarter – Smart Study Planner App
+# StudySmarter App
 
-An Android study planner app designed to help students organize tasks and enhance learning with **AI-generated flashcards**.  
-
----
-
-## ✨ Key Features
-- 📌 **Task Management** – Create, edit, and delete tasks  
-- 📅 **Due Dates & Priorities** – Stay on top of deadlines  
-- 🗂 **Sorting & Filtering** – Organize tasks efficiently based in due dates  
-- 🤖 **AI-Powered Flashcards** – Generate flashcards from topics using **Gemini API**  
-- 🎨 **Modern UI** – Built with **Material 3** and **Jetpack Compose**  
+A smart study planner app built with Kotlin, Jetpack Compose, and integrated AI flashcards.
 
 ---
 
-## 🛠 Tech Stack
-- **Language**: Kotlin  
-- **UI Toolkit**: Jetpack Compose, Material 3  
-- **Architecture**: State management with Compose  
-- **API**: Google Gemini API for flashcard generation  
-- **IDE**: Android Studio  
+## Features
+
+- Task creation with due dates and priorities
+- Sorting and filtering of tasks
+- AI-generated flashcards based on user input
+- Retrofit networking for API calls
+- BuildConfig integration for API key management
 
 ---
 
-To run this project locally:  
+## Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/StudySmarter.git
+### 1. Clone the repository
+
+```bash
+git clone git@github.com:maanyachaturvedi/StudySmarterApp.git
+cd StudySmarterApp
