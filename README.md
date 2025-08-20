@@ -22,7 +22,7 @@ A smart study planner app built with Kotlin, Jetpack Compose, and integrated AI 
 git clone git@github.com:maanyachaturvedi/StudySmarterApp.git
 cd StudySmarterApp
 
-**### 2. Add your API key safely**
+### 2. Add your API key safely
 
 **⚠️ Each developer must enter their own Gemini API key before running the app.**
 
